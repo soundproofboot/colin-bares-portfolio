@@ -1,5 +1,12 @@
+import { useEffect } from 'react';
+import { upperCase } from '../utils';
+
 const Nav = (props) => {
   const { panels, setCurrentPanel, currentPanel } = props;
+
+  useEffect(() => {
+    document.title = upperCase(currentPanel);
+  }, [currentPanel]);
 
   return (
     <nav>
@@ -12,7 +19,7 @@ const Nav = (props) => {
                 setCurrentPanel(panel);
               }}
             >
-              {panel}
+              {upperCase(panel)}
             </span>
           </li>
         ))}
