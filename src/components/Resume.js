@@ -11,8 +11,7 @@ const Resume = () => {
       <p>You can find my full resume <a href="#">here</a> </p>
       <h3>Creativity!</h3>
       <p>
-        I've been a part-time musician/some-times visual artist for almost 20
-        years. From{' '}
+        I've been a part-time musician and some-times visual artist all my adult life. From{' '}
         <a href="https://colinedwinbares.bandcamp.com/">home recording</a> to{' '}
         <a href="https://soundproofboot.github.io/random-color-test">
           {' '}
@@ -20,9 +19,9 @@ const Resume = () => {
         </a>{' '}
         to{''}
         <a href="https://www.youtube.com/watch?v=2xJsu071O2c">
-          video editing
+          video editing,
         </a>{' '}
-        I've been constantly learning new technologies to express ideas.
+        I'm passionate about learning new technologies to express new ideas.
       </p>
       </section>
       );
