@@ -1,14 +1,24 @@
-import React from 'react'
+const Nav = (props) => {
+  const { panels, setCurrentPanel, currentPanel } = props;
 
-const Nav = () => {
   return (
     <nav>
-      <h2>About Me</h2>
-      <h2>Portfolio</h2>
-      <h2>Contact</h2>
-      <h2>Resume</h2>
+      <ul>
+        {panels.map((panel) => (
+          <li key={panel}>
+            <span
+              className={panel === currentPanel ? 'navActive' : undefined}
+              onClick={() => {
+                setCurrentPanel(panel);
+              }}
+            >
+              {panel}
+            </span>
+          </li>
+        ))}
+      </ul>
     </nav>
-  )
-}
+  );
+};
 
-export default Nav
+export default Nav;

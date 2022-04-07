@@ -14,3 +14,11 @@ footer {
   position: absolute;
   bottom: 0;
 }
+
+li {
+  cursor: pointer;
+  width: min-content;
+}
+.navActive {
+  color: red;
+}
