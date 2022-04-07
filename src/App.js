@@ -5,7 +5,7 @@ import Footer from './components/Footer';
 import About from './components/About';
 import Contact from './components/Contact';
 // import Portfolio from './components/Portfolio';
-// import Resume from './components/Resume';
+import Resume from './components/Resume';
 
 // import { useState } from 'react';
 
@@ -25,6 +25,7 @@ function App() {
       <main>
       {currentPanel === 'about' && <About />}
       {currentPanel === 'contact' && <Contact />}
+      {currentPanel === 'resume' && <Resume />}
       
       </main>
       <Footer />
