@@ -4,7 +4,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import About from './components/About';
 import Contact from './components/Contact';
-// import Portfolio from './components/Portfolio';
+import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
 
 // import { useState } from 'react';
@@ -12,7 +12,7 @@ import Resume from './components/Resume';
 function App() {
   const panels = ['about', 'contact', 'portfolio', 'resume'];
 
-  const [currentPanel, setCurrentPanel] = useState(panels[0]);
+  const [currentPanel, setCurrentPanel] = useState(panels[2]);
 
   console.log(currentPanel)
   return (
@@ -26,7 +26,7 @@ function App() {
       {currentPanel === 'about' && <About />}
       {currentPanel === 'contact' && <Contact />}
       {currentPanel === 'resume' && <Resume />}
-      
+      {currentPanel === 'portfolio' && <Portfolio />}
       </main>
       <Footer />
     </div>
