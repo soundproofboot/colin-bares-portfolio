@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: white;
+  background-color: black;
+}
+
+.icon {
+  height: 40px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+}
