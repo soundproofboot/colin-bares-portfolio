@@ -14,7 +14,6 @@ function App() {
 
   const [currentPanel, setCurrentPanel] = useState(panels[2]);
 
-  console.log(currentPanel)
   return (
     <div className="App">
       <Header
@@ -23,10 +22,10 @@ function App() {
         currentPanel={currentPanel}
       />
       <main>
-      {currentPanel === 'about' && <About />}
-      {currentPanel === 'contact' && <Contact />}
-      {currentPanel === 'resume' && <Resume />}
-      {currentPanel === 'portfolio' && <Portfolio />}
+        {currentPanel === 'about' && <About />}
+        {currentPanel === 'contact' && <Contact />}
+        {currentPanel === 'resume' && <Resume />}
+        {currentPanel === 'portfolio' && <Portfolio />}
       </main>
       <Footer />
     </div>
