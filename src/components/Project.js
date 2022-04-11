@@ -10,7 +10,7 @@ const Project = (props) => {
       <h3>Tech Stack</h3>
       <p>{stack}</p>
       <p>
-        <a href={deployed}>Deployment</a>
+        <a href={deployed}>Live</a>
       </p>
       <p>
         <a href={github}>Repo</a>

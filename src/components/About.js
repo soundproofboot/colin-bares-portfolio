@@ -1,15 +1,23 @@
+const self = require('../assets/self.jpg')
+
 const About = () => {
   return (
-    <>
-      <h2>About Me</h2>
-      <img src="https://via.placeholder.com/150" alt="Colin Bares" />
-      <p>Dear interested party,</p>
-      <p>
-        I'm a full stack developer and based in Minneapolis, Minnesota. 
-      </p>
-      <p>Yours,</p>
-      <p>Colin Edwin Bares</p>
-    </>
+    <div id='about-section'>
+      <img src={self} alt="Colin Bares" className='self'/>
+      <p id='caption' >Colin posing with delicious corndog.</p>
+      <section id='write-up'>
+        <p>
+           Dear interested party,
+        </p>
+        <p id='main-p'>
+          I'm a full stack developer based in Minneapolis, MN. What I currently lack in experience I more than make up for with pure moxie. I'm most interested in exploring where the arts meet technology. It's fun in there!
+        </p><br />
+        <div id='sign-off'>
+          <p>Cheers,</p>
+          <p>Colin Edwin Bares</p>
+        </div>
+      </section>
+    </div>
   );
 }
 
