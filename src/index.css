@@ -163,29 +163,46 @@ button {
 
 .project {
   width: 90%;
-  margin: 1em auto;
-  line-height: 2em;
-}
-
-.project-text {
-  border: 1px solid white;
+  margin: 5em auto;
 }
 
 .project-text div {
   display: flex;
   justify-content: space-between;
+  align-items: flex-end;
   background-color: grey;
-  padding: 1em 0;
+  padding: 1em .75em;
 }
 
 .project-text div:nth-child(2n) {
-  background-color: rgba(128, 128, 128, .5)
+  background-color: rgba(128, 128, 128, .5);
+  border-bottom: 1px solid white;
+  justify-content: center;
 }
 
 .project-text div:nth-child(3n) {
-  background-color: rgba(128, 128, 128, .2)
+  background-color: black;
+  margin-top: 1em;
+  justify-content: space-evenly;
 }
 
 .title-line {
   text-shadow: 1px 1px 2px black;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+}
+
+.tech-line {
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+}
+
+.link-line a {
+  margin: 0 1em;
+  border: 1px solid white;
+  padding: .5em;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
 }

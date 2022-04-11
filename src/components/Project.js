@@ -11,15 +11,15 @@ const Project = (props) => {
           <p>{description}</p>
         </div>
         <div className='tech-line'>
-          <h3>Tech Stack</h3>
+       
           <p>{stack}</p>
         </div>
         <div className='link-line'>
           <p>
-            <a href={deployed}>Live</a>
+            <a href={deployed}>LIVE</a>
           </p>
           <p>
-            <a href={github}>Repo</a>
+            <a href={github}>REPO</a>
           </p>
         </div>
       </div>

@@ -12,7 +12,7 @@ const Portfolio = () => {
   const projects = [
     {
       title: 'Fav Mates',
-      description: 'Mock food delivery app',
+      description: 'Food delivery app',
       url: favMates,
       stack: 'Express, MySQL, Handlebars',
       deployed: 'https://lit-mountain-78827.herokuapp.com/',
@@ -27,8 +27,8 @@ const Portfolio = () => {
       github: 'https://github.com/crosenfrisk/Popcorn',
     },
     {
-      title: 'Budget Tracker',
-      description: 'Track your expenses and deposits, even out of network',
+      title: 'Travel Buddy',
+      description: 'Off-line budget tracker',
       url: budgetTracker,
       stack: 'MongoDB, Webpack, PWA',
       deployed: 'https://hidden-temple-38628.herokuapp.com/',
@@ -36,7 +36,7 @@ const Portfolio = () => {
     },
     {
       title: 'Photo Port',
-      description: 'Professional Photography Portfolio',
+      description: 'Photography Portfolio',
       url: photoPort,
       stack: 'React, Bootstrap',
       deployed: 'https://soundproofboot.github.io/photo-port/',
