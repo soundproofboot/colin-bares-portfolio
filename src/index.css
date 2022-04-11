@@ -10,6 +10,10 @@ body {
   background-color: black;
 }
 
+a {
+  color: rgb(124, 124, 255);
+}
+
 main {
   min-height: 74vh;
 }
@@ -53,12 +57,6 @@ li {
   border-bottom: 1px solid white
 }
 
-.project {
-  width: 90%;
-  margin: 2em auto;
-  line-height: 2em;
-}
-
 footer {
   background: black;
   display: flex;
@@ -76,9 +74,6 @@ ul {
   margin: .5em 0 .5em 0;
 }
 
-.screenshot {
-  max-width: 90vw;
-}
 
 #about-section {
   margin-top: 1em;
@@ -133,16 +128,64 @@ ul {
 }
 
 input {
-  /* height: 3em; */
   font-size: 1.5em;
   height: 1.5em;
 }
 
 button {
-  color: red;
+  color: rgb(124, 124, 255);
   width: 90%;
   display: block;
   margin: 2em auto;
   height: 3em;
   font-size: 1.5em;
+}
+
+#resume-section {
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+}
+
+#resume-section h2 {
+  margin-top: 1em;
+  border-bottom: 1px solid white;
+}
+
+#resume-section ul{
+  display: block;
+  margin-left: 2em;
+}
+
+.screenshot {
+  max-width: 90vw;
+}
+
+.project {
+  width: 90%;
+  margin: 1em auto;
+  line-height: 2em;
+}
+
+.project-text {
+  border: 1px solid white;
+}
+
+.project-text div {
+  display: flex;
+  justify-content: space-between;
+  background-color: grey;
+  padding: 1em 0;
+}
+
+.project-text div:nth-child(2n) {
+  background-color: rgba(128, 128, 128, .5)
+}
+
+.project-text div:nth-child(3n) {
+  background-color: rgba(128, 128, 128, .2)
+}
+
+.title-line {
+  text-shadow: 1px 1px 2px black;
 }
