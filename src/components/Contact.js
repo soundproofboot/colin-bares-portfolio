@@ -38,29 +38,45 @@ const Contact = () => {
 
   return (
     <section>
-      <h2>Contact Me</h2>
-      <form id='contact-form' onSubmit={handleSubmit}>
-        <div>
+      <h2 className="heading">Hit Me Up!</h2>
+      <form id="contact-form" onSubmit={handleSubmit}>
+        <div className="form-line">
           <label htmlFor="name">Name</label>
-          <input type="text" name='name' defaultValue={name} onBlur={handleChange}/>
+          <input
+            type="text"
+            name="name"
+            defaultValue={name}
+            onBlur={handleChange}
+          />
         </div>
-        <div>
+        <div className="form-line">
           <label htmlFor="email">Email address</label>
-          <input type="email" name='email' defaultValue={email} onBlur={handleChange}/>
+          <input
+            type="email"
+            name="email"
+            defaultValue={email}
+            onBlur={handleChange}
+          />
         </div>
-        <div>
+        <div className="form-line">
           <label htmlFor="message">Message</label>
-          <textarea type="text" name='message' rows='5' defaultValue={message} onBlur={handleChange}/>
+          <textarea
+            type="text"
+            name="message"
+            rows="5"
+            defaultValue={message}
+            onBlur={handleChange}
+          />
         </div>
         {errorMessage && (
           <div>
-            <p className='error-text'>{errorMessage}</p>
+            <p className="error-text">{errorMessage}</p>
           </div>
         )}
-        <button type='submit'>Submit</button>
+        <button type="submit">Submit</button>
       </form>
     </section>
-  )
+  );
 }
 
 export default Contact
