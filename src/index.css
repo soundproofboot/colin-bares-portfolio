@@ -228,14 +228,42 @@ footer a:hover {
   }
 
   .project {
-    margin-left: 2em;
+    /* margin-left: 2em; */
     width: 40%;
   }
 
+  #about-section {
+    display: flex;
+    margin-top: 20vh;
+  }
+
+  #write-up {
+    margin: 0 2em;
+  }
+
+  #contact-section {
+    margin: 10vh 15vw 0 15vw;
+  }
+
+  #resume-section {
+    margin: 10vh 10vw 0 10vw;
+  }
+  footer {
+    justify-content: center;
+  }
+  footer a {
+    margin: 1em 2em 1em 2em;
+  }
 }
 
 @media (min-width: 1000px) {
+
+  .portfolio {
+    width: 90%;
+    margin: 0 auto;
+  }
   .project {
-    width: 30%;
+    width: 20%;
+    margin: 10vh 5vw 0 5vw;
   }
 }

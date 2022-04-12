@@ -3,8 +3,10 @@ const self = require('../assets/self.jpg')
 const About = () => {
   return (
     <div id='about-section'>
-      <img src={self} alt="Colin Bares" className='self'/>
-      <p id='caption' >Colin posing with delicious corndog.</p>
+    <div id='about-pic'>
+    <img src={self} alt="Colin Bares" className='self'/>
+    <p id='caption' >Colin posing with delicious corndog.</p>
+    </div>
       <section id='write-up'>
         <p>
            Dear interested party,
