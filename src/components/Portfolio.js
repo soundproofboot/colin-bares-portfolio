@@ -61,7 +61,7 @@ const Portfolio = () => {
   ];
   return (
     
-    <div>
+    <div className='portfolio'>
     {projects.map((project, i) => (
       <Project project = {project} key={project.title}/>
     ))}

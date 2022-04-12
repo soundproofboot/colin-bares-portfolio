@@ -22,6 +22,9 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  position: sticky;
+  top: 0;
+  background-color: rgba(0,0,0,.5);
 }
 
 h1 {
@@ -58,10 +61,10 @@ li {
 }
 
 footer {
-  background: black;
   display: flex;
   justify-content: space-evenly;
-  border-top: 1px solid white;
+  /* border-top: 1px solid white; */
+  background-color: rgba(0,0,0,.75);
 }
 
 footer a {
@@ -162,8 +165,12 @@ button {
 }
 
 .project {
-  width: 90%;
+  width: 80%;
   margin: 5em auto;
+}
+
+.project img {
+  width: 100%;
 }
 
 .project-text div {
@@ -205,4 +212,30 @@ button {
   background-color: white;
   color: black;
   font-weight: bold;
+  text-decoration: none;
+}
+
+footer a:hover {
+  background-color: rgba(255,255,255, .5);
+  box-shadow: 1px 1px 10px;
+}
+
+@media (min-width: 500px) {
+  
+  .portfolio {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .project {
+    margin-left: 2em;
+    width: 40%;
+  }
+
+}
+
+@media (min-width: 1000px) {
+  .project {
+    width: 30%;
+  }
 }
