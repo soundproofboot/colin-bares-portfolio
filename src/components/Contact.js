@@ -32,7 +32,6 @@ const Contact = () => {
     }
     if (!errorMessage) {
       setFormState({ ...formState, [e.target.name]: e.target.value });
-      console.log('Handle Form', formState);
     }
   };
 

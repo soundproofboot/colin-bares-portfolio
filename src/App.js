@@ -12,7 +12,7 @@ import Resume from './components/Resume';
 function App() {
   const panels = ['about', 'contact', 'portfolio', 'resume'];
 
-  const [currentPanel, setCurrentPanel] = useState(panels[2]);
+  const [currentPanel, setCurrentPanel] = useState(panels[0]);
 
   return (
     <div className="App">

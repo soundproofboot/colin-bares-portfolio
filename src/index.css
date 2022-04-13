@@ -170,6 +170,7 @@ button {
 .project {
   width: 80%;
   margin: 5em auto;
+  font-size: .8em;
 }
 
 .project img {
@@ -178,7 +179,7 @@ button {
 
 .project-text div {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: flex-end;
   background-color: grey;
   padding: 1em .75em;

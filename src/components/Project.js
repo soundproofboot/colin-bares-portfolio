@@ -1,6 +1,6 @@
 const Project = (props) => {
 
-  const { title, url, description, stack, deployed, github } = props.project
+  const { title, url, stack, deployed, github } = props.project
 
   return (
     <section className='project'>
@@ -8,7 +8,6 @@ const Project = (props) => {
       <div className='project-text'>
         <div className='title-line'>
           <h2>{title}</h2>
-          <p>{description}</p>
         </div>
         <div className='tech-line'>
        
