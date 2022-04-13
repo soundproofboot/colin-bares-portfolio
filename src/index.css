@@ -48,7 +48,7 @@ footer {
   bottom: 0;
 }
 
-li {
+li  {
   cursor: pointer;
   width: min-content;
   font-weight: bold;
@@ -160,6 +160,9 @@ button {
   margin-left: 2em;
 }
 
+#resume-section li {
+  cursor:text
+}
 .screenshot {
   max-width: 90vw;
 }
@@ -265,5 +268,11 @@ footer a:hover {
   .project {
     width: 20%;
     margin: 10vh 5vw 0 5vw;
+  }
+  #about-section {
+    margin-top: 10vh;
+  }
+  #contact-section {
+    margin: 5vh 15vw 0 15vw;
   }
 }
