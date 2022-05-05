@@ -8,8 +8,17 @@ const Portfolio = () => {
   const photoPort = require('../assets/screenshots/photo-port.png');
   const stack = require('../assets/screenshots/stack-undertow.png')
   const random = require('../assets/screenshots/random-color-test.png')
+  const parks = require('../assets/screenshots/park.png')
 
   const projects = [
+    {
+      title: 'National Park Spotter',
+      description: 'National Park Directory',
+      url: parks,
+      stack: 'React, MongoDB, GraphQL API',
+      deployed: 'https://pacific-brushlands-65513.herokuapp.com/',
+      github: 'https://github.com/SepidehAyani/national-parks-spotter',
+    },
     {
       title: 'Fav Mates',
       description: 'Food delivery app',
@@ -33,14 +42,6 @@ const Portfolio = () => {
       stack: 'MongoDB, Webpack, PWA',
       deployed: 'https://hidden-temple-38628.herokuapp.com/',
       github: 'https://github.com/soundproofboot/travel-buddy',
-    },
-    {
-      title: 'Photo Port',
-      description: 'Photography Portfolio',
-      url: photoPort,
-      stack: 'React, Bootstrap',
-      deployed: 'https://soundproofboot.github.io/photo-port/',
-      github: 'https://github.com/soundproofboot/photo-port',
     },
     {
       title: 'Stack Undertow',
