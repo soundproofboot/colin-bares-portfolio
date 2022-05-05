@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/colin-bares-portfolio/static/css/main.77e0cf2b.css",
-    "main.js": "/colin-bares-portfolio/static/js/main.cc0768e0.js",
+    "main.js": "/colin-bares-portfolio/static/js/main.c58f7776.js",
     "static/js/787.3d096e0d.chunk.js": "/colin-bares-portfolio/static/js/787.3d096e0d.chunk.js",
+    "static/media/park.png": "/colin-bares-portfolio/static/media/park.7b4c91db2a1f9e32ecc8.png",
     "static/media/popcorn.png": "/colin-bares-portfolio/static/media/popcorn.ed8519c3a9f3c79747a1.png",
     "static/media/photo-port.png": "/colin-bares-portfolio/static/media/photo-port.1a7e3f136b0ddac46f90.png",
     "static/media/Instagram_Glyph_Gradient_RGB.png": "/colin-bares-portfolio/static/media/Instagram_Glyph_Gradient_RGB.f7b3dff34fba7bf43d83.png",
@@ -13,11 +14,11 @@
     "static/media/stack-undertow.png": "/colin-bares-portfolio/static/media/stack-undertow.40ec93694ccea1e94793.png",
     "index.html": "/colin-bares-portfolio/index.html",
     "main.77e0cf2b.css.map": "/colin-bares-portfolio/static/css/main.77e0cf2b.css.map",
-    "main.cc0768e0.js.map": "/colin-bares-portfolio/static/js/main.cc0768e0.js.map",
+    "main.c58f7776.js.map": "/colin-bares-portfolio/static/js/main.c58f7776.js.map",
     "787.3d096e0d.chunk.js.map": "/colin-bares-portfolio/static/js/787.3d096e0d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.77e0cf2b.css",
-    "static/js/main.cc0768e0.js"
+    "static/js/main.c58f7776.js"
   ]
 }
