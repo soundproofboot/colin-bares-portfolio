@@ -7,8 +7,6 @@ import Contact from './components/Contact';
 import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
 
-// import { useState } from 'react';
-
 function App() {
   const panels = ['about', 'contact', 'portfolio', 'resume'];
 

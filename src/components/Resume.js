@@ -1,11 +1,13 @@
 const Resume = () => {
   return (
     <section id="resume-section">
-      <h2>Front End Proficiencies</h2>
+      <h2>Technical Skills</h2>
       <ul>
-        <li>HTML/CSS/JS</li>
         <li>React</li>
-        <li>Responsive Design</li>
+        <li>MongoDB/MySQL</li>
+        <li>GraphQL/RESTful APIs with Express.js</li>
+        <li>Git and GitHub</li>
+        <li>HTML5/CSS3/modern JavaScript</li>
       </ul>
 
       <h2>Back End Proficiencies</h2>
@@ -18,13 +20,16 @@ const Resume = () => {
       </ul>
       <p id="link-line">
         You can find my full resume{' '}
-        <a target="_blank" href="https://drive.google.com/file/d/1yDTvJC3a55dGo_Im9LBA75LMep06iwuC/view?usp=sharing">
+        <a
+          target="_blank"
+          href="https://drive.google.com/file/d/1yDTvJC3a55dGo_Im9LBA75LMep06iwuC/view?usp=sharing"
+        >
           here
         </a>
         .
       </p>
     </section>
   );
-    };
-    
-    export default Resume;
+};
+
+export default Resume;

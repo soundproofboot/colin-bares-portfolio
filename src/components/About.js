@@ -12,7 +12,7 @@ const About = () => {
            Dear interested party,
         </p>
         <p id='main-p'>
-          I'm a full stack developer based in Minneapolis, MN. What I currently lack in experience I more than make up for with pure moxie. I'm most interested in exploring where the arts meet technology. It's fun in there!
+          I'm a full stack developer based in Minneapolis, MN. With a background in physical inventory as well as the arts, I'm able to combine creativity with an unmatched attention to detail. I'm most interested in using my new coding super powers to explore where the arts meet technology.
         </p><br />
         <div id='sign-off'>
           <p>Cheers,</p>

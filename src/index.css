@@ -68,7 +68,7 @@ footer {
 }
 
 footer a {
-  margin: 1em 0;
+  margin: .5em 0;
 }
 
 ul {
@@ -158,10 +158,12 @@ button {
 #resume-section ul{
   display: block;
   margin-left: 2em;
+  line-height: 1.5em;
 }
 
 #resume-section li {
-  cursor:text
+  cursor:text;
+  width: 100%;
 }
 .screenshot {
   max-width: 90vw;

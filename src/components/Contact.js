@@ -8,13 +8,6 @@ const Contact = () => {
   const [errorMessage, setErrorMessage] = useState('');
   const { name, email, message } = formState;
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    if (!errorMessage) {
-      console.log('Submit Form', formState);
-    }
-  };
-
   const handleChange = (e) => {
     if (e.target.name === 'email') {
       const isValid = validateEmail(e.target.value);
@@ -36,9 +29,13 @@ const Contact = () => {
   };
 
   return (
-    <section id='contact-section'>
-      <h2 className="heading">Hit Me Up!</h2>
-      <form id="contact-form" onSubmit={handleSubmit}>
+    <section id="contact-section">
+      <h2 className="heading">Say hello!</h2>
+      <form
+        action="https://formsubmit.co/5479132c31c3525da4d928ffee3b1796"
+        method="POST"
+        id="contact-form"
+      >
         <div className="form-line">
           <label htmlFor="name">Name</label>
           <input
