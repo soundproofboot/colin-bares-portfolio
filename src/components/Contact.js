@@ -31,6 +31,9 @@ const Contact = () => {
   return (
     <section id="contact-section">
       <h2 className="heading">Say hello!</h2>
+      <p>
+        Contact me directly at <a href='mailto:colinedwinbares@gmail.com'>colinedwinbares@gmail.com</a> or through this form.
+      </p>
       <form
         action="https://formsubmit.co/5479132c31c3525da4d928ffee3b1796"
         method="POST"

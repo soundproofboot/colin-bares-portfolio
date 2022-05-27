@@ -10,14 +10,7 @@ const Resume = () => {
         <li>HTML5/CSS3/modern JavaScript</li>
       </ul>
 
-      <h2>Back End Proficiencies</h2>
-      <ul>
-        <li>APIs</li>
-        <li>Node</li>
-        <li>Express.js</li>
-        <li>MySQL/Sequelize</li>
-        <li>MongoDB/Mongoose</li>
-      </ul>
+      
       <p id="link-line">
         You can find my full resume{' '}
         <a
