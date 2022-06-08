@@ -1,10 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.3d12dd96.css",
-    "main.js": "/static/js/main.24771570.js",
+    "main.css": "/static/css/main.328063b3.css",
+    "main.js": "/static/js/main.ddb684eb.js",
     "static/media/park.png": "/static/media/park.7b4c91db2a1f9e32ecc8.png",
     "static/media/popcorn.png": "/static/media/popcorn.ed8519c3a9f3c79747a1.png",
-    "static/media/photo-port.png": "/static/media/photo-port.1a7e3f136b0ddac46f90.png",
     "static/media/Instagram_Glyph_Gradient_RGB.png": "/static/media/Instagram_Glyph_Gradient_RGB.f7b3dff34fba7bf43d83.png",
     "static/media/random-color-test.png": "/static/media/random-color-test.4bfc9129dd626e7f4aee.png",
     "static/media/self.jpg": "/static/media/self.3db98020c0b50baf86b1.jpg",
@@ -12,11 +11,11 @@
     "static/media/travel-buddy-screenshot.png": "/static/media/travel-buddy-screenshot.ff1faa924ffa75be98c5.png",
     "static/media/stack-undertow.png": "/static/media/stack-undertow.40ec93694ccea1e94793.png",
     "index.html": "/index.html",
-    "main.3d12dd96.css.map": "/static/css/main.3d12dd96.css.map",
-    "main.24771570.js.map": "/static/js/main.24771570.js.map"
+    "main.328063b3.css.map": "/static/css/main.328063b3.css.map",
+    "main.ddb684eb.js.map": "/static/js/main.ddb684eb.js.map"
   },
   "entrypoints": [
-    "static/css/main.3d12dd96.css",
-    "static/js/main.24771570.js"
+    "static/css/main.328063b3.css",
+    "static/js/main.ddb684eb.js"
   ]
 }
