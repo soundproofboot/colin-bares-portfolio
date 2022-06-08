@@ -1,6 +1,6 @@
 const Project = (props) => {
 
-  const { title, url, stack, deployed, github } = props.project
+  const { title, url, stack, deployed, github, details } = props.project;
 
   return (
     <section className='project'>
@@ -10,8 +10,8 @@ const Project = (props) => {
           <h2>{title}</h2>
         </div>
         <div className='tech-line'>
-       
-          <p>{stack}</p>
+        
+        <p>{stack}</p>
         </div>
         <div className='link-line'>
           <p>
@@ -21,6 +21,7 @@ const Project = (props) => {
             <a href={github}>REPO</a>
           </p>
         </div>
+        <p className='details'>{details}</p>
       </div>
     </section>
   );
